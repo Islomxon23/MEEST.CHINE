@@ -9,13 +9,19 @@
     display: inline-flex;
     align-items: center;
     justify-content: space-around;
-    width: 70%;
+    width: 90%;
+}
+.div1>p{
+    font-weight: 100;
 }
 .div2{
     display: inline-flex;
     align-items: center;
     justify-content: space-around;
     width: 10%;
+}
+.div2>p{
+    font-weight: 200;
 }
 .birinchi{
     width: 100%;
@@ -25,15 +31,13 @@
 .btn1{
     width: 20%;
     height: 17vh;
-    
 }
 .qww1{
     margin-top: 25px;
     margin-left: 35px;
 }
 .bvc{
-    border: none;
-    background-color: white;
+    border: none
 }
 .btn11{
     width: 70%;
@@ -43,6 +47,17 @@
     align-items: center;
     color: blue;
 }
+.btn12{
+    width: 55%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.btn13{
+    width: 45%;
+    display: inline-flex;
+    justify-content: space-around;
+}
 .urta{
     width: 100%;
     height: 85vh;
@@ -50,7 +65,7 @@
 }
 .bir{
     width: 30%;
-    height: 100%;
+    height: 95%;
     margin-top: 15px;
 }
 .bir>div{
@@ -84,7 +99,7 @@
     border: 1px solid black;
 }
 .lol>input{
-    height: 5.3vh;
+    height: 100%;
     width: 300px;
     border: none;
 }
@@ -92,7 +107,7 @@
     font-size: 28px;
     border: none;
 }
-.bir>div:nth-child(3){
+.asws{
     border: 1px solid black;
     width: 68%;
     height: 50vh;
@@ -131,12 +146,13 @@
 }
 .ert{
     width: 70%;
-    height: 75vh;
+    height: 81vh;
     margin-top: 15px;
 }
 .car_div1{
     width: 97%;
     height: 72vh;
+    margin-top: 15px;
     background: center url(https://meest.cn/media/images/Meest_Site_banner_main_page_1287x.2e16d0ba.fill-1017x552_4DRVCBH.png);
 }
 .car_div1>h3{
@@ -444,7 +460,7 @@
     align-items: center;
     justify-content: center;
 }
-.aaa>div{
+.aaw{
     width: 90%;
     height: 100%;
     border: 1px solid black;
@@ -597,40 +613,40 @@
     justify-content: space-around;
 }
 .yet1{
+    width: 15%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.yet2>p{
+    font-size: 75px;
+}
+.yet2{
     width: 25%;
     height: 100%;
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-}
-.yet1>p{
-    font-size: 75px;
-}
-.yet2{
-    width: 30%;
-    height: 100%;
-    display: inline-flex;
-    align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .yet2d>p{
     font-size: 75px;
 }
 .yet3{
-    width: 40%;
+    width: 30%;
     height: 100%;
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-.yet3>button{
+.yet>button{
     width: 120px;
     height: 40px;
     border-radius: 5px;
     border: 2px solid blue;
     margin-top: -125px;
 }
-.yet3>button:hover{
+.yet>button:hover{
     background-color: blue;
     color: white;
 }
@@ -767,7 +783,7 @@
     margin-top: 15px;
     margin-left: 15px;
 }
-.ombor1>div{
+.ej>div{
     display: inline-flex;
     margin-left: 10px;
 }
@@ -839,6 +855,7 @@
     width: 90%;
     height: 85%;
     background-image: url(https://uz.meest.cn/media/images/Frame_25.2e16d0ba.fill-667x353.png);
+    background-size: cover;
 }
 .jjh>i{
     font-size: 70px;
@@ -1087,6 +1104,7 @@
 .end{
     width: 100%;
     height: 48vh;
+    background-color: gainsboro;
 }
 .end1{
     width: 85%;
@@ -1203,13 +1221,1051 @@
     margin-top: 550px;
 }
 .butt>button{
-    width: 70px;
-    height: 70px;
+    width: 50px;
+    height: 50px;
     border-radius: 50px;
     color: white;
     background-color: red;
     border: none;
 }
+.butt>button>i{
+    font-size: 25px;
+}
+.cla{
+    width: 85%;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+
+@media screen and (max-width: 1285px) {
+        .cla{
+            flex-direction: column;
+            align-items: flex-start;
+            margin-left: 150px;
+        }
+}
+@media screen and (max-width: 1280px) {
+        .urta{
+            flex-direction: column;
+            
+        }
+        .bir{
+            width: 100%;
+        }
+        .ert{
+            width: 100%;
+            height: 100%;
+            margin-top: 50px;
+        }
+        .car_div1{
+            width: 92%;
+            margin-left: 40px;
+        }
+        .asws{
+            width: 90%;
+            height: 80%;
+        }
+        .ase{
+            width: 30%;
+            margin-top: 20px;
+        }
+        .asw{
+            margin-top: 10px;
+        }
+        .ikkinchi{
+            margin-top: 700px;
+        }
+        .in{
+            width: 90%;
+        }
+        .lol>input{
+            width: 100% !important;            
+        }
+        .lol{
+            width: 100%;
+        }
+        .aaa{
+            margin-top: 50px;
+            height: 80vh;
+        }
+        .www3{
+            height: 60vh;
+            width: 35%;
+        }
+        .www2{
+            height: 60vh;
+        }
+        .www1{
+            width: 30%;
+        }
+}
+@media screen and (max-width: 1200px) {
+        .btn11{
+            flex-direction: column;
+            align-items: flex-start;
+            height: 11vh;
+            margin-top: 35px;
+        }   
+        .btn13{
+            width: 55%;
+        }
+}
+@media screen and (max-width: 992px) {
+    .div{
+        display: none;
+    }
+    .btn11{
+        flex-direction: column;
+    }
+    .btn1>img{
+        width: 85px;
+        height: 55px;
+    }
+    .bvc{
+        font-size: 30px;
+    }
+    .btn11{
+        display: none;
+    }
+    .btn1{
+        width: 60%;
+        display: inline-flex;
+        justify-content: center;
+    }
+    
+    .birinchi{
+        width: 100%;
+        display: inline-flex;
+    }
+    .butt{
+     display: none;
+    }
+    .qww1{
+        display: none;
+    }
+    .qww{
+        width: 60%;
+        height: 100%;
+        display: inline-flex;
+    }
+    .mb-3>label{
+        color: white;
+    }
+    .form-text{
+        color: white;
+    }
+    .mb-3>input{
+        width: 400px;
+        height: 5vh;
+        border-radius: 10px;
+    }
+    .mb-4>label{
+        color: white;
+    }
+    .fa{
+        width: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .fa>button{
+        width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    color: white;
+    background-color: red;
+    border: none;
+    }
+    .fa>button>i{
+        font-size: 25px;
+    }
+    .fa1{
+        width: 50%;
+        display: inline-flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .fa1>button{
+        font-size: 20px;
+        border: none;
+    }
+    
+    .aaa{
+        margin-top: 150px;
+    }
+    .bir{
+        width: 80%;
+        margin-left: 100px;
+    }
+    .ert{
+        width: 100%;
+    }
+    .ase{
+        width: 48%;
+    }
+    .asws{
+        height: 55vh;
+    }
+    .asw{
+        height: 3vh;
+    }
+    .ikkinchi{
+        display: none;
+    }
+    .rez{
+        margin-top: 100vh;
+        flex-direction: column;
+    }
+    .rez1{
+        width: 79%;
+    }
+    .rez1>button{
+        width: 50%;
+    }
+    .rez2{
+        width: 79%;
+        margin-top: 15px;
+    }
+    .rez2>button{
+        width: 50%;
+    }
+    .bir{
+        order: 2;
+        margin-top: 100px;
+        
+    }
+    .www{
+        margin-top: 120px;
+    height: 60vh;
+    }
+    .www1{
+        display: none;
+    }
+    .www2{
+        width: 35%;
+        height: 70vh;
+    }
+    .www3{
+        width: 35%;
+        height: 74vh;
+    }
+    .aaa1{
+        width: 100%;
+        border: none;
+        margin-top: -50px;
+    }
+    .aaa2{
+        flex-direction: column;
+        width: 100%;
+        border: none;
+    }
+    .aaw{
+        margin-top: 95vh;
+        height: 160vh;
+        width: 80%;
+    }
+    .zax{
+        border: none;
+        width: 100%;
+    }
+    .zax1{
+        border: none;
+        width: 100%;
+    }
+    .zax2{
+        border: none;
+        width: 100%;
+    }
+    .zax3{
+        width: 100%;
+    }
+    .aaw>p{
+        display: none;
+    }
+
+    .Yetkazib{
+        margin-top: 105vh;
+        width: 80%;
+        margin-left: 100px;
+        height: 100vh;
+    }
+    .yet{
+        flex-direction: column;
+        display: inline-flex;
+        align-items: flex-start;
+        width: 90%;
+    }
+    .yet2{
+        width: 70%;
+    }
+    .yet1{
+        width: 100%;
+    }
+    .yet3{
+        width: 70%;
+        height: 35vh;
+    }
+    .yet>button{
+        margin-top: 30px;
+    }
+    .Tanish{
+        margin-top: 10vh;
+        flex-direction: column;
+        height: 70vh;
+    }
+    .nish{
+        width: 70%;
+        height: 33vh;
+    }
+    .nish>button{
+        width: 70%;
+    }
+    .nish1>button{
+        width: 70%;
+    }
+    .nish1{
+       width: 70%;
+    }
+
+
+
+
+    .mijozlar{
+        margin-top: 10vh;
+        
+    }
+    .mijoz{
+        flex-direction: column;
+    }
+    .joz{
+        width: 90%;
+    }
+    .wer{
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .wer1{
+        order: 2;
+    }
+    .joz1{
+        width: 65%;
+        margin-right: 222px;
+    }
+    .joz2{
+        width: 65%;
+        margin-right: 222px;
+    }
+    .joz3{
+        width: 40%;
+        margin-right: 443px;
+    }
+
+
+
+
+    .ombor{
+        margin-top: 50vh;
+        flex-direction: column;
+    }
+    .ombor1{
+        order: 2;
+        width: 100%;
+    }
+    .ombor1>h2{
+        width: 100%;
+    }
+    .ej{
+        display: inline-flex;
+        width: 90%;
+    }
+    .ej>div{
+        flex-direction: column;
+    }
+    .ej>div>img{
+        width: 120px;
+        height: 120px;
+    }
+    .ombor2{
+        margin-left: 150px;
+    }
+    .tttt{
+        width: 50%;
+    }
+
+
+
+
+    .ega{
+        margin-top: 100vh;
+    }
+    .jjh{
+        background-size: cover;
+        width: 80%;
+        height: 65%;
+    }
+    .jhh{
+        background-size: cover;
+        width: 80%;
+        height: 65%;
+    }    
+    .jhh>i{
+        font-size: 50px;
+        margin-top: 200px;
+        margin-left: 10px;
+        color: white;
+    }
+    .jjh>i{
+        font-size: 50px;
+        margin-top: 200px;
+        margin-left: 10px;
+        color: white;
+    }
+    
+    .fghh{
+        background-size: cover;
+        width: 95%;
+        height: 120%;
+    }
+    .fghj{
+        background-size: cover;
+        width: 80%;
+        height: 65%;
+    }
+    .fghh>i{
+        font-size: 50px;
+        margin-top: 200px;
+        margin-left: 10px;
+        color: white;
+    }
+    .fghj>i{
+        font-size: 50px;
+        margin-top: 200px;
+        margin-left: 10px;
+        color: white;
+    }
+    
+    .yangii{
+        flex-direction: column;
+        width: 75%;
+        height: 75vh;
+        margin-left: 130px;
+    }
+    .var1{
+        width: 40%;
+        height: 40vh;
+        background-size: cover;
+    }
+    .var1>i{
+        font-size: 35px;
+        margin-top: 240px;
+    }
+    .var{
+        order: 2;
+    }
+    .ber1{
+        width: 40%;
+        height: 40vh;
+        background-size: cover;
+    }
+    .ber1>i{
+        font-size: 35px;
+        margin-top: 240px;
+    }
+    .ber{
+        order: 2;
+    }
+
+    .blog{
+        margin-top: 15vh;
+        height: 105vh;
+    }
+    .blog1{
+        flex-direction: column;
+        width: 100%;
+    }
+    .blog2{
+        order: 2;
+        display: none;
+    }
+    .blog3{
+        width: 100%;
+    }
+    .blog3>p{
+        margin-left: 150px;
+    }
+    .bbn{
+        width: 70%;
+        height: 55vh;
+        margin-left: 150px;
+    }
+    
+    .min{
+        width: 100%;
+        height: 230px;
+    }
+    .min1{
+        width: 50%;
+        border-top: 2px solid black;
+        margin-left: 150px;
+    }
+    .min1>p{
+        font-weight: 100;
+    }
+    .min1>a{
+        color: black;
+    }
+    .min1>a:hover{
+        color: blue;
+    }
+    .min2{
+        width: 60%;
+        border-top: 2px solid black;
+        margin-top: 5px;
+        margin-left: 150px;
+    }
+    .min2>p{
+        font-weight: 100;
+    }
+    .min2>a{
+        color: black;
+    }
+    .min2>a:hover{
+        color: blue;
+    }
+    .min>button{
+        font-size: 17px;
+        width: 180px;
+        height: 5.5vh;
+        border-radius: 7px;
+        border: 1px solid blue;
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+    .min>button:hover{
+        color: white;
+        background-color: rgb(39, 57, 255);
+        border: none;
+    }
+
+    .oddiy{
+        display: none;
+    }
+
+
+
+    .tarif{
+        width: 100%;
+        height: 60px;
+        background-color: white;
+        position: fixed;
+        bottom: 0;
+        display: inline-flex;
+        justify-content: center;
+    }
+    .tarif1{
+        width: 70%;
+        height: 100%;
+        display: inline-flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .tarif1>button{
+        height: 100%;
+        width: 20%;
+        border: none;
+    }
+    .tarif1>button>i{
+        font-size: 20px;
+        margin-top: 12px;
+    }
+    .tarif1>button>p{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    
+    .btn1{
+        width: 30%;
+    }
+    .qww{
+        width: 70%;
+    }
+    .ert{
+        width: 100%;
+    }
+    .car_div1{
+        margin-left: -1px;
+        width: 100%;
+    height: 52vh;
+    background-size: cover;
+    }
+    .car_div2{
+        margin-left: -1px;
+        width: 100%;
+    height: 55vh;
+    background-size: cover;
+    }
+    .car_div2>p{
+        display: none;
+    }
+    .but{
+        width: 280px;
+        height: 14vh;
+        flex-direction: column;
+    }
+    #btnzag{
+        width: 300px;
+        height: 45px;
+    }
+    #btnzag1{
+        width: 300px;
+        height: 45px;
+    }
+    .but1{
+        width: 280px;
+        height: 14vh;
+        flex-direction: column;
+    }
+    #btnbig{
+        width: 300px;
+        height: 45px;
+    }
+    .car_div1>h3{
+        font-size: 40px;
+    }
+    .car_div1>p{
+        display: none;
+    }
+    .car_div2>h2{
+        font-size: 45px;
+    }
+    .bir{
+        width: 100%;
+        margin-left: -1px;
+    }
+    .www2{
+    width: 45%;
+    }
+    .www3{
+        width: 50%;
+        }
+        .aaa{
+            margin-top: 20vh;
+        }
+        .aaa1{
+            flex-direction: column;
+            height: 80px;
+        }
+        .aaa1>h2{
+            margin-left: -100px;
+        }
+        .aaa1>div{
+            margin-left: -300px;
+        }
+        .aaw{
+            width: 95%;
+            height: 210%;
+        }
+
+        .yet3{
+            margin-left: 18px;
+        }
+        .Yetkazib{
+            width: 100%;
+            margin-left: -50px;
+            height: 85vh;
+        }
+        .nish{
+            width: 95%;
+            background-size: cover;
+            height: 25vh;
+        }
+        .nish1{
+            width: 95%;
+            background-size: cover;
+            height: 28vh;
+        }
+        .nish>button{
+            width: 90%;
+            height: 40px;
+        }
+        .nish1>button{
+            width: 90%;
+            height: 40px;
+        }
+        .joz{
+            width: 100%;
+            margin-left: -90px;
+        }
+        .joz1{
+            width: 100%;
+            margin-left: 130px;
+        }
+        .joz2{
+            width: 100%;
+            margin-left: 130px;
+        }
+        .joz3{
+            width: 60%;
+            margin-left: 175px;
+        }
+        .ombor2{
+            width: 100%;
+            height: 100%;
+            margin-left: -1px;
+        }
+        .ombor2>img{
+            width: 95%;
+            height: 360px;
+            background-size: cover;
+        }
+        .ombor1{
+            margin-left: -1px;
+        }
+        .ej{
+            width: 100%;
+            height: 40vh;
+        }
+        .tttt{
+            width: 50%;
+        }
+        .poi{
+            width: 75%;
+            margin-left: -1px;
+        }
+        .jjh{
+            width: 95%;
+            height: 65%;
+            background-size: cover;
+        }
+        .pol{
+            width: 75%;
+        }
+        .jhh{
+            width: 95%;
+            height: 65%;
+            background-size: cover;
+        }
+
+
+        .ombor{
+            margin-top: 80vh;
+        }
+        .ombor1>h2{
+            width: 95%;
+        }
+
+
+        .yangi{
+            margin-left: -1px;
+            margin-top: 10vh;
+        }
+        .yangii{
+            width: 100%;
+            margin-left: -1px;
+        }
+        .var1{
+            width: 60%;
+            height: 40vh;
+        }
+        .ber1{
+            width: 60%;
+            height: 40vh;
+        }
+        .bbn{
+            margin-left: 15px;
+            width: 95%;
+            height: 40vh;
+            flex-direction: column;
+        }
+        .blog3>p{
+            margin-left: 20px;
+        }
+        .min1{
+            width: 100%;
+            margin-left: 1px;
+        }
+        .min2{
+            width: 100%;
+            margin-left: 1px;
+        }
+        .min>button{
+            margin-left: 10px;
+        }
+        .pok{
+            display: none;
+        }
+        .pok1{
+            display: none;
+        }
+        .pok2{
+            display: none;
+        }
+        .pok3{
+            display: none;
+        }
+        .pok4{
+            display: none;
+        }
+        .vgc{
+            display: none;
+        }
+        .end{
+            height: 80vh;
+        }
+        .end1{
+            margin-left: -1px;
+            width: 100%;
+        }
+        .asb{
+            margin-left: 1px;
+        }
+        .pok5{
+            height: 30vh;
+            width: 40%;
+            margin-left: -350px;
+            margin-top: 35vh;
+        }
+        .pok6{
+            width: 100%;
+            height: 25vh;
+            margin-left: -50px;
+        }
+        .dew{
+            width: 100%;
+            height: 8vh;
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        .dew1{
+            width: 100%;
+            height: 8vh;
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        .dew2{
+            width: 100%;
+            height: 8vh;
+            display: inline-flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid black;
+        }
+        .bnm{
+            margin-left: -1px;
+            margin-top: 30px;
+        }
+        .bnm1{
+            margin-left: -1px;
+            margin-top: 30px;
+        }
+        .bnm2{
+            margin-left: -1px;
+            margin-top: 30px;
+        }
+        .tttt>img{
+            margin-top: 25px;
+        }
+        .fgg{
+            height: 58vh;
+        }
+        .fgh{
+            width: 100% !important;
+            overflow-x: auto !important;
+            height: 55vh;
+        }
+        .fgh1{
+            width: 350px !important;
+          
+        }
+        .fgh2{
+            width: 350px !important;
+        }
+        .fghh{
+            width: 345px !important;
+            height: 200px;
+            margin-left: -50px;
+            background-size: cover;
+        }
+        .fghj{
+            width: 345px !important;
+            height: 200px !important;
+            margin-left: 5px;
+            background-size: cover;
+        }
+        .fghh>i{
+            font-size: 40px;
+            margin-top: 150px;
+            margin-left: 10px;
+            color: white;
+        }
+        .fghj>i{
+            font-size: 40px;
+            margin-top: 150px;
+            margin-left: 10px;
+            color: white;
+        }
+
+
+        .ega{
+            height: 55vh;
+        }
+        .ega1{
+            width: 100% !important;
+            overflow-x: auto !important;
+            height: 45vh;
+        }
+        .poi{
+            width: 350px !important;
+          
+        }
+        .pol{
+            width: 350px !important;
+        }
+        .jjh{
+            width: 345px !important;
+            height: 200px;
+            margin-left: -50px;
+            background-size: cover;
+        }
+        .jhh{
+            width: 345px !important;
+            height: 200px !important;
+            margin-left: 5px;
+            background-size: cover;
+        }
+        .jjh>i{
+            font-size: 40px;
+            margin-top: 150px;
+            margin-left: 60px;
+            color: white;
+        }
+        .jhh>i{
+            font-size: 40px;
+            margin-top: 150px;
+            margin-left: 10px;
+            color: white;
+        }
+        .www3{
+            height: 79vh;
+        }
+
+        .song{
+            width: 99%;
+            height: 30vh;
+            margin-top: 25px;
+        }
+        .song1{
+            width: 100%;
+            height: 5vh;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            color: black;
+            border-top: 1px solid black;
+        }
+        .song1>i{
+            color: rgb(38, 119, 231);
+        }
+        .sonj{
+            width: 99%;
+            height: 50vh;
+            margin-top: 25px;
+        }
+        .sonj1{
+            width: 100%;
+            height: 5vh;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            border-top: 1px solid black;
+            color: black;
+        }
+        .sonj1>i{
+            color: rgb(38, 119, 231);
+        }
+        .tag{
+            width: 99%;
+            height: 15vh;
+            margin-top: 15px;
+        }
+        .tag1{
+            width: 100%;
+            height: 5vh;
+            color: black;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+        }
+        .tag2{
+            width: 100%;
+            height: 5vh;
+            color: black;
+            display: inline-flex;
+            align-items: center;
+            border-bottom: 1px solid black;
+            justify-content: space-between;
+        }
+        .tag3{
+            width: 100%;
+            height: 5vh;
+            color: black;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 1px solid black;
+        }
+
+        .lab{
+            width: 100%;
+            margin-top: 15px;
+        }
+        #abab{
+            width: 50%;
+        }
+        #ababb{
+            width: 50%;
+        }
+}
+
+
+
+
+
+
+@media screen and (min-width: 992px) {
+    .fa{
+        display: none;
+    }
+    .fa1{
+        display: none;
+    }
+    .tarif{
+        display: none;
+    }
+    .min{
+        display: none;
+    }
+}
+
+
+
+
+
+
 
 
 
